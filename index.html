@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>panda</title>
+    <!-- link css -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- link bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" .css>
+
+</head>
+
+<body>
+    <header>
+        <!-- nav bar section  -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img src="images/logo.png" alt="">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="true"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#shoes">Shoes</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#backpack">Backpack</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#subscribe">Subscribe</a>
+                        </li>
+
+
+                    </ul>
+
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- carusel part -->
+    <div class="container ">
+        <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="100">
+                    <div class="banner pb-5 rounded-3">
+                        <div class="banner-heading ps-3">
+                            <h1>Mi LDE TV A4 PRO 32</h1>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus quam quae minus,
+                                aperiam officia omnis explicabo dolorum itaque magni ex.</p>
+                            <h1>$1200</h1>
+                            <button class="button py-3 px-5">BUY NOW</button>
+
+                        </div>
+                        <div class="banner-img">
+                            <img src="images/banner-images/tv.png" class="d-block" alt="...">
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="100">
+                    <div class="banner pb-5 rounded-3">
+                        <div class="banner-heading ps-3">
+                            <h1>HEADPHONE JBL</h1>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus quam quae minus,
+                                aperiam officia omnis explicabo dolorum itaque magni ex.</p>
+                            <h1>$1200</h1>
+                            <button class="button py-3 px-5">BUY NOW</button>
+
+                        </div>
+                        <div class="banner-img" data-bs-interval="100">
+                            <img src="images/banner-images/headphone.png" class="d-block " alt="...">
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="banner pb-5 rounded-3">
+                        <div class="banner-heading ps-3">
+                            <h1>XBOX GAMES HD </h1>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus quam quae minus,
+                                aperiam officia omnis explicabo dolorum itaque magni ex.</p>
+                            <h1>$1200</h1>
+                            <button class="button py-3 px-5">BUY NOW</button>
+
+                        </div>
+                        <div class="banner-img">
+                            <img src="images/banner-images/xbox.png" class="d-block" alt="...">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        <!-- catagoris section  -->
+
+        <div class="catagoris mt-5">
+            <h1>Catagoris</h1>
+
+            <div class="row gx-3">
+                <div class="col">
+                    <div class="bg-primary d-flex justify-content-evenly align-items-center rounded-3">
+                        <div class="shoes">
+                            <h1>Shoes</h1>
+                        </div>
+                        <div class="shoea-img">
+                            <img src="images/categories/shoes.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="backpack d-flex justify-content-evenly align-items-center rounded-3">
+                        <div class="bag">
+                            <h1>Backpack</h1>
+                        </div>
+                        <div class="bag-img">
+                            <img src="images/categories/bag.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="bg-warning d-flex justify-content-evenly align-items-center rounded-3">
+                        <div class="watch">
+                            <h1>WATCH</h1>
+                        </div>
+                        <div class="watch-img">
+                            <img src="images/categories/watch.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+    </div>
+
+
+
+    <main>
+        <!-- card section  -->
+        <div class="card-section pt-5" id="shoes">
+
+            <div class="container">
+                <div class="subsection d-flex justify-content-between aling-items-center align-items-center rounded-3"">
+                    <h1>Shoes</h1>
+                    <a href=" #" class=" text-decoration-none text-warning"> See All</a>
+                </div>
+                <div class="row row-cols-1 row-cols-md-3 g-4">
+                    <div class="col">
+                        <div class="card text-center">
+                            <img src="images/shoes/shoe-1.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">This is a longer card with supporting text below as a natural
+                                    lead-in to additional content. This content is a little bit longer.</p>
+
+                                <h1>$400</h1>
+                                <button class="button py-3 px-5">Bey Now <i class="fas fa-arrow-right"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card text-center">
+                            <img src="images/shoes/shoe-2.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">This is a longer card with supporting text below as a natural
+                                    lead-in to additional content. This content is a little bit longer.</p>
+                                <h1>$500</h1>
+                                <button class="button py-3 px-5">Bey Now <i class="fas fa-arrow-right"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card text-center">
+                            <img src="images/shoes/shoe-3.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">This is a longer card with supporting text below as a natural
+                                    lead-in to additional content.</p>
+                                <h1>$600</h1>
+                                <button class="button py-3 px-5">Bey Now <i class="fas fa-arrow-right"></i></button>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <!-- caed section1 -->
+                <div class="card-section pt-5" id="backpack">
+
+                    <div class="container">
+                        <div
+                            class="subsection d-flex justify-content-between aling-items-center align-items-center rounded-3">
+                            <h1>Backpack</h1>
+                            <a href=" #" class=" text-decoration-none text-warning"> See All</a>
+                        </div>
+                        <div class="row row-cols-1 row-cols-md-3 g-4">
+                            <div class="col">
+                                <div class="card text-center">
+                                    <img src="images/bags/bag-1.png" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Card title</h5>
+                                        <p class="card-text">This is a longer card with supporting text below as a
+                                            natural
+                                            lead-in to additional content. This content is a little bit longer.</p>
+
+                                        <h1>$400</h1>
+                                        <button class="button py-3 px-5">Bey Now <i
+                                                class="fas fa-arrow-right"></i></button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card text-center">
+                                    <img src="images/bags/bag-2.png" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Card title</h5>
+                                        <p class="card-text">This is a longer card with supporting text below as a
+                                            natural
+                                            lead-in to additional content. This content is a little bit longer.</p>
+                                        <h1>$500</h1>
+                                        <button class="button py-3 px-5">Bey Now <i
+                                                class="fas fa-arrow-right"></i></button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card text-center">
+                                    <img src="images/bags/bag-3.png" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Card title</h5>
+                                        <p class="card-text">This is a longer card with supporting text below as a
+                                            natural
+                                            lead-in to additional content.</p>
+                                        <h1>$600</h1>
+                                        <button class="button py-3 px-5">Bey Now <i
+                                                class="fas fa-arrow-right"></i></button>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="subscribe-section" id="subscribe">
+                    <div
+                        class="container subscribe d-flex flex-column justify-content-center align-items-center mt-5 align-items-center rounded-3">
+                        <h1>LET'S STAY IN TOUCH</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur.</p>
+                        <div class=" col-lg-4 d-flex justify-content-center align-items-center">
+                            <input class="form-label form-control" type="email" placeholder="Enter email">
+                            <button class="btn bg-danger ms-3">send</button>
+
+                        </div>
+                    </div>
+                </div>
+
+    </main>
+    <footer>
+
+
+
+    </footer>
+
+
+
+
+
+
+    <!-- bootsrap js -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="https://kit.fontawesome.com/a94f2fd7da.js" crossorigin="anonymous"></script>
+</body>
+
+</html>

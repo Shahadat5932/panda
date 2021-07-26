@@ -1,0 +1,32 @@
+.banner{
+    display: flex;
+    background: #FEEAE9;
+
+    /* border: 0 solid black;
+    border-radius:10px; */
+}
+.banner-img img{
+    width: 70%;
+}
+
+.banner-heading { 
+    margin: 5px;
+    padding-top: 100px
+    
+    
+}
+.button{
+    background: linear-gradient(180deg, #FF589B -0.01%, #FF136F 99.99%);
+    border-radius: 6px;
+    border: 0px solid black;
+    
+}
+.backpack{
+    background-color: #FF136F;
+}
+.card-section{
+    background-color: #F4F4F4;
+}
+.subscribe{
+    background: #FEEAE9;
+}
